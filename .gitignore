@@ -1,13 +1,29 @@
-# LaTeX build artifacts
+# LaTeX intermediate and output files
+*.aux
+*.bbl
 *.blg
-*.brf
-*.fdb_latexmk
-*.fls
 *.log
 *.out
-*.synctex.gz
 *.toc
 *.lof
 *.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
 *.nav
 *.snm
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.sav
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
