@@ -8,25 +8,19 @@
 % Enter path to BibTeX file with references:
 \newcommand{\bib}{paper.bib}
 
-% Enter path to PDF file with figures:
-\newcommand{\pdf}{figures.pdf}
-
 \begin{document}
 
 % Enter title:
-\title{Research Paper}
+\title{Epistemology}
 
 % Enter authors:
-\author{First Author, Second Author
-%
-% Enter affiliations and acknowledgements:
-\thanks{First Author: First University. Second Author: Second University. We thank colleagues for helpful comments and discussions. This work was supported by a grant [grant number]; another grant [grant number]; and a foundation.}}
+\author{Ibrahim Nasser}
 
 % Enter date:
-\date{Month Year}   
+\date{July 2025}   
 
 % Enter permanent URL (can be commented out):
-\available{https://github.com/pmichaillat/latex-paper}
+\available{https://github.com/96ibman/latex-paper/tree/mybranch}
 
 \begin{titlepage}
 \maketitle
@@ -130,11 +124,17 @@ Here is a section with a variety of graphs.
 A simple two-panel graph is on figure \ref{f:graph1}. It will be placed at the top of the page, just about here. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae.
 
 \begin{figure}[h!]
-\subcaptionbox{A first panel, 1951--2019\label{f:panel1}}{\includegraphics[scale=0.2,page=1]{\pdf}}\hfill
-\subcaptionbox{A second panel, 1951--2019\label{f:panel2}}{\includegraphics[scale=0.2,page=2]{\pdf}}
-\caption{Graph with two panels}
-\note{This is a note for the graph. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus.}
-\label{f:graph1}\end{figure}
+  \centering
+  \subcaptionbox{A first panel, 1951--2019\label{f:panel1}}{
+    \includegraphics[width=0.45\textwidth]{images/kg.png}
+  }\hfill
+  \subcaptionbox{A second panel, 1951--2019\label{f:panel2}}{
+    \includegraphics[width=0.45\textwidth]{images/sn.png}
+  }
+  \caption{Graph with two panels}
+  \label{f:graph1}
+\end{figure}
+
 
 \subsection{Subsection with references to figures and panels} 
 
